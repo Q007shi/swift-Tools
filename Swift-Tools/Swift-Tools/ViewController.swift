@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let c = UIColor.lightGray.rgb()
+        let c = UIColor.lightGray.fc_rgb()
         print("\(c.R)" + "-" + "\(c.G)" + "-" + "\(c.B)" + "-" + "\(c.A)")
         
     }
