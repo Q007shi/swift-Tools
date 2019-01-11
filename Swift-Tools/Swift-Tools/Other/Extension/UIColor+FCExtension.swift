@@ -30,9 +30,12 @@ extension UIColor{
     ///十六进制字符串("0xffffff、#ffffff") 转 UIColor
     func fc_hexValueString(hexValueString: String) -> UIColor{
         if hexValueString.isEmpty{ return UIColor.clear }
-        if !hexValueString.fc_evaluateWithRegex(regex: "^(0x|#)([a-zA-Z0-9]{6})") { return UIColor.clear }
+        if !hexValueString.fc_evaluateWithRegex(regex: "^(0x|#)(([a-zA-Z0-9]{3})|([a-zA-Z0-9]{6}))") { return UIColor.clear }
         
         return UIColor.clear
+    }
+    private func _colorComponent(hexStr: String,start: Int,length: Int) -> CGFloat{
+        return  1;
     }
     
 }
