@@ -8,6 +8,7 @@
 
 import Foundation
 
+///正则表达式
 extension String{
     
     ///对当前字符，根据正则表达式 regex 进行匹配
