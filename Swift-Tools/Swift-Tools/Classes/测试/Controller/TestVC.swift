@@ -15,6 +15,13 @@ class TestVC: UIViewController {
         navigationItem.title = "测试"
         view.backgroundColor = UIColor.white
         
+        let view1 = UIView(frame: CGRect(x: 10, y: 100, width: 100, height: 100))
+        view1.backgroundColor = UIColor.fc_hexValue(hexValue: 0x999999)
+        view.addSubview(view1)
+        let view2 = UIView(frame: CGRect(x: 10, y: 300, width: 100, height: 100))
+        view2.backgroundColor = UIColor.fc_transformColor(fromColor: .red, toColor: .blue, percent: 0.5)
+        view.addSubview(view2)
+        
     }
     
 

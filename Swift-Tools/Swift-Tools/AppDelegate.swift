@@ -18,9 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = MainTabBarController()
         window?.makeKeyAndVisible()
-        let str: String = "123✈️..."
-        print(str[str.startIndex..<str.endIndex])
-        print(str.index(String.Index.init(encodedOffset: 1), offsetBy: 3))
         return true
     }
 
