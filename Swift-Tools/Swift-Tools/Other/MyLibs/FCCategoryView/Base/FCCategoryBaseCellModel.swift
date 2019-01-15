@@ -9,12 +9,14 @@
 import UIKit
 
 class FCCategoryBaseCellModel: NSObject {
-    
+    ///位置
     var index: Int
+    ///是否选中
     var selected: Bool
     
-    private var _cellWidth: CGFloat
-    var cellWidth: CGFloat{
+    private var _cellWidth: Float
+    /// cell 的宽度
+    var cellWidth: Float{
         get{
             if cellWidthZoomEnabled {
                 return self.cellWidth*cellWidthZoomScale
@@ -25,9 +27,13 @@ class FCCategoryBaseCellModel: NSObject {
             _cellWidth = newValue
         }
     }
-    var cellSpacing: CGFloat
+    ///cell 之间的间距
+    var cellSpacing: Float
+    ///cell 是否具有放大效果
     var cellWidthZoomEnabled: Bool
-    var cellWidthZoomScale: CGFloat
+    /// cell 放大比例
+    var cellWidthZoomScale: Float
+    
     override init() {
         index = 0
         selected = false;
