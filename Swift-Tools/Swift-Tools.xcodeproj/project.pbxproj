@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2482736321F5C65C00EA6331 /* UIButtom+FCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2482736221F5C65C00EA6331 /* UIButtom+FCExtension.swift */; };
 		24A1115921E6DD80007DBDF5 /* TransformUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A1115821E6DD80007DBDF5 /* TransformUtil.swift */; };
 		24B042D821E5A2B5005C5256 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B042D721E5A2B5005C5256 /* MainTabBarController.swift */; };
 		24B042DA21E5A2E2005C5256 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B042D921E5A2E2005C5256 /* BaseNavigationController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2482736221F5C65C00EA6331 /* UIButtom+FCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButtom+FCExtension.swift"; sourceTree = "<group>"; };
 		24A1115821E6DD80007DBDF5 /* TransformUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformUtil.swift; sourceTree = "<group>"; };
 		24B042D721E5A2B5005C5256 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		24B042D921E5A2E2005C5256 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 			children = (
 				55B6B1E921C7F9DF009C4EA8 /* UIColor+FCExtension.swift */,
 				24B042E521E5D26C005C5256 /* String+FCExtension.swift */,
+				2482736221F5C65C00EA6331 /* UIButtom+FCExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				24A1115921E6DD80007DBDF5 /* TransformUtil.swift in Sources */,
 				55B6B1CD21C7E6D3009C4EA8 /* AppDelegate.swift in Sources */,
 				24B042E621E5D26C005C5256 /* String+FCExtension.swift in Sources */,
+				2482736321F5C65C00EA6331 /* UIButtom+FCExtension.swift in Sources */,
 				55B6B1E321C7ECF8009C4EA8 /* FCCategoryBaseCellModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

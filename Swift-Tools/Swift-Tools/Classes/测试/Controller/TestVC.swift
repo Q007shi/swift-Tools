@@ -15,6 +15,11 @@ class TestVC: UIViewController {
         navigationItem.title = "测试"
         view.backgroundColor = UIColor.white
         
+        let btn = UIButton(imageName: "tabBar_Item", title: "124", state: .normal)
+        btn.backgroundColor = .red;
+        btn.center = view.center
+        view.addSubview(btn)
+        
     }
     
 
