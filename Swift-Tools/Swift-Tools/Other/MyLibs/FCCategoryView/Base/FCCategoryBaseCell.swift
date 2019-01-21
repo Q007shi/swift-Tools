@@ -10,13 +10,22 @@ import UIKit
 
 class FCCategoryBaseCell: UICollectionViewCell {
     
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        initializeView()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     var cellModel: FCCategoryBaseCellModel?
     ///子类重写该方法，初始化 View
-    func fc_initializeView() {
+    func initializeView() {
         
     }
     ///刷新数据
-    func fc_reloadData(cellModel: FCCategoryBaseCellModel) {
+    func reloadData(cellModel: FCCategoryBaseCellModel) {
         self.cellModel = cellModel
     }
     
