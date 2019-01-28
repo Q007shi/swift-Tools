@@ -32,7 +32,6 @@ extension String{
         if lower > upper{
             (lower,upper) = (upper,lower)
         }
-        
         return ""
     }
     
